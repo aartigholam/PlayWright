@@ -5,5 +5,4 @@ test("Another way to manage browser", async()=>{
     const browser= await chromium.launch ({headless: false})
 
     
-    
 })
