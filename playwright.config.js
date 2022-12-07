@@ -108,7 +108,8 @@ const config = {
         trace: 'on',
         screenshot: 'on',
         //channel: "chrome",
-        video: 'on'
+        video: 'on',
+        headless: false
     },
     },
  ],
