@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "ddt":"npx playwright test ./tests/browsercontextdemo.spec.js --project=chromium",
+    "ddt":"npx playwright test ./tests/browsercontextdemo.spec.js --project=chrome",
     "allTestInChrome":"npx playwright test --project=Chrome",
     "allTestInFirefox":"npx playwright test --project=firefox",
     "allTestInWebKit":"npx playwright test --project=webkit",
