@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "demo":"npx playwright test ./tests/test.spec.js",
     "ddt":"npx playwright test ./tests/test.spec.js --project=chrome",
     "allTestInChrome":"npx playwright test --project=Chrome",
     "allTestInFirefox":"npx playwright test --project=firefox",
