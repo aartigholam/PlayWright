@@ -102,7 +102,7 @@ const config = {
   //     },
   //   },
     {
-      name: 'Google Chrome',
+      name: 'Chrome',
       use: {
         viewport: { width: 1600, height: 1000},
         ignoreHTTPSErrors: true,
