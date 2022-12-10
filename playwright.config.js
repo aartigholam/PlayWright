@@ -46,38 +46,38 @@ const config = {
 
   /* Configure projects for major browsers */
   projects: [
-    {
-      name: 'chromium',
-      use: {
-        ...devices['Desktop Chrome'],
-        screenshot : 'on',
-        video: "on",
-        trace:"on",
-        headless: false
-      },
-    },
+//     {
+//       name: 'chromium',
+//       use: {
+//         ...devices['Desktop Chrome'],
+//         screenshot : 'on',
+//         video: "on",
+//         trace:"on",
+//         headless: false
+//       },
+//     },
 
-    {
-      name: 'firefox',
-      use: {
-        ...devices['Desktop Firefox'],
-        screenshot : 'on',
-        video: "on",
-        trace:"on",
-        headless: false
-      },
-    },
+//     {
+//       name: 'firefox',
+//       use: {
+//         ...devices['Desktop Firefox'],
+//         screenshot : 'on',
+//         video: "on",
+//         trace:"on",
+//         headless: false
+//       },
+//     },
 
-    {
-      name: 'webkit',
-      use: {
-        ...devices['Desktop Safari'],
-        screenshot : 'on',
-        video: "on",
-        trace:"on",
-        headless: false
-      },
-    },
+//     {
+//       name: 'webkit',
+//       use: {
+//         ...devices['Desktop Safari'],
+//         screenshot : 'on',
+//         video: "on",
+//         trace:"on",
+//         headless: false
+//       },
+//     },
 
     /* Test against mobile viewports. */
     // {
